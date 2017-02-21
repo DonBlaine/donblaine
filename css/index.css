@@ -1,0 +1,334 @@
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@-moz-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+.fade {
+	opacity: 0;
+	/* make things invisible upon start */
+	-webkit-animation: fadeIn ease-in 1;
+	/* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation: fadeIn ease-in 1;
+	animation: fadeIn ease-in 1;
+	-webkit-animation-fill-mode: forwards;
+	/* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	animation-duration: 1s;
+}
+.fade.one {
+	-webkit-animation-delay: 0.5s;
+	-moz-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+}
+.fade.two {
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	animation-delay: 2s;
+}
+.fade.three {
+	-webkit-animation-delay: 3.5s;
+	-moz-animation-delay: 3.5s;
+	animation-delay: 3.5s;
+}
+.fade.four {
+	-webkit-animation-delay: 5s;
+	-moz-animation-delay: 5s;
+	animation-delay: 5s;
+}
+.fade.five {
+	-webkit-animation-delay: 6s;
+	-moz-animation-delay: 6s;
+	animation-delay: 6s;
+}
+@-webkit-keyframes slideUp {
+	from {
+		height: 2000px;
+	}
+	to {
+		height: 300px;
+	}
+}
+@-moz-keyframes slideUp {
+	from {
+		height: 2000px;
+	}
+	to {
+		height: 300px;
+	}
+}
+@keyframes slideUp {
+	from {
+		height: 2000px;
+	}
+	to {
+		height: 300px;
+	}
+}
+.slide {
+	-webkit-animation: slideUp cubic-bezier(0.39, 0.58, 0.57, 1) 1;
+	-moz-animation: slideUp cubic-bezier(0.39, 0.58, 0.57, 1) 1;
+	animation: slideUp cubic-bezier(0.39, 0.58, 0.57, 1) 1;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-duration: 4.5s;
+	-moz-animation-duration: 4.5s;
+	animation-duration: 4.5s;
+	-webkit-animation-delay: 3s;
+	-moz-animation-delay: 3s;
+	animation-delay: 3s;
+	height: 2000px;
+}
+body {
+	background-color: gainsboro;
+	width: 100%;
+	height: 100%;
+}
+header,
+.projects {
+	background-color: white;
+}
+header,
+.experience,
+.education,
+.projects {
+	text-align: center;
+	padding: 2%;
+	width: 95%;
+	margin: auto;
+}
+h1,
+h2,
+h3 {
+	text-align: center;
+	padding: 1%;
+	margin-bottom: 2%;
+	font-weight: 800;
+	font-size: 200%;
+	color: #000085;
+}
+header h2 {
+	font-size: 300%;
+}
+h3 {
+	font-size: 150%;
+}
+hr {
+	border-color: black;
+	font-weight: 600;
+	margin: 2% 8% 2% 8%;
+}
+nav {
+	background-color: dimgrey;
+	width: 99%;
+	margin: auto;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav li {
+	float: right;
+	width: 25%;
+}
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+nav li a:hover {
+	background-color: #000085;
+}
+footer {
+	background-color: white;
+	padding: 2%;
+	width: 95%;
+	margin: auto;
+}
+footer ul {
+	width: 20%;
+	margin: auto;
+}
+footer li {
+	padding-bottom: 3%;
+}
+.imageholder {
+	padding-right: 5%;
+}
+footer li img {
+	width: 16%;
+	height: 6%;
+	vertical-align: middle;
+	border: 1px;
+	border-style: solid;
+	border-color: #000085;
+	border-radius: 10%;
+}
+footer a {
+	color: black;
+}
+#contact {
+	margin-bottom: 7%;
+}
+.schools {
+	width: 90%;
+	margin: auto;
+	text-align: left;
+	font-style: italic;
+}
+.bolded {
+	font-weight: 800;
+	padding: 2%;
+	font-style: normal;
+	display: block;
+}
+.title {
+	font-weight: 800;
+	color: #000085;
+}
+.schools img {
+	width: 8%;
+	height: 14%;
+	float: left;
+	margin-right: 5%;
+	border-radius: 10%;
+}
+.skill_list {
+	background-color: white;
+	border-radius: 10%;
+	border: 1px;
+	border-style: solid;
+	border-color: #000085;
+	width: 20%;
+	margin: 3%;
+	margin-top: 0;
+	display: inline-block;
+}
+.skill_list li {
+	padding: 2%;
+	overflow: hidden;
+}
+.jobs {
+	width: 90%;
+	margin: auto;
+	text-align: left;
+	padding: 2%;
+}
+.jobs ul {
+	list-style-type: disc;
+	margin-left: 10%;
+	padding: 2%;
+}
+.emphasis {
+	font-style: italic;
+	padding-left: 2%;
+}
+#tagged {
+	margin-left: 5%;
+}
+.company {
+	padding-left: 2%;
+	font-style: italic;
+	color: #000085;
+}
+.company a {
+	color: #000085;
+}
+.individualprojects {
+	width: 60%;
+	margin: auto;
+}
+.individualprojects a {
+	text-decoration: none;
+}
+.backgroundbox {
+	width: 100%;
+	height: 60%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	/*	border: 1px solid #000085;*/
+}
+.backgroundbox.one {
+	background-image: url(/img/emertxt.png);
+}
+.backgroundbox.two {
+	background-image: url(/img/opendoor.png);
+}
+.backgroundbox.three {
+	background-image: url(/img/dubbikes.PNG);
+}
+.backgroundbox.four {
+	background-image: url(/img/store.PNG);
+}
+.backgroundbox.five {
+	background-image: url(/img/zebra.PNG);
+}
+.transparent {
+	width: 100%;
+	height: 100%;
+	background-color: #000085;
+	padding: -moz-opacity: 0.0;
+	opacity: 0.0;
+	filter: alpha(opacity=0);
+}
+.transparent p {
+	color: white;
+	text-align: left;
+	font-weight: 800;
+	font-size: 150%;
+	font-style: italic;
+	border-top: 2px solid white;
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+.transparent:hover {
+	display: block;
+	-moz-opacity: 0.85;
+	opacity: 0.85;
+	filter: alpha(opacity=85);
+}
+.transparent.text {
+	padding-top: 10%;
+	text-align: center;
+	width: 100%;
+	height: 80%;
+}
+.transparent.text p {
+	padding-top: 5%;
+}
+.projecttitle {
+	font-weight: 800;
+	font-size: 150%;
+}
+
+/*@media (screen and max-width: 800px) { 
+}    */
