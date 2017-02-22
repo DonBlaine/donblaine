@@ -154,10 +154,8 @@ nav {
 	background-color: dimgrey;
 	width: 100%;
 	margin: auto;
-	/*
-	padding-left: 2%;
-padding-right: 2%;
-*/
+	top: 0;
+	position: fixed;
 }
 nav ul {
 	list-style-type: none;
@@ -210,15 +208,6 @@ footer a {
 #contact {
 	margin-bottom: 7%;
 }
-.schools {
-	width: 90%;
-	margin: auto;
-	text-align: left;
-	font-style: italic;
-}
-.schools p {
-	display: block;
-}
 .bolded {
 	font-weight: 800;
 	padding: 2%;
@@ -229,13 +218,30 @@ footer a {
 	font-weight: 800;
 	color: #000085;
 }
+.schools {
+	width: 85%;
+	margin: auto;
+	font-style: italic;
+	display: flex;
+	height: 30%;
+}
+.schools.dublin p,
+.schools.berkeley p {
+	text-align: left;
+	display: block;
+}
 .schools img {
-	width: 8%;
-	height: 14%;
+	width: 20%;
+	height: 50%;
 	float: left;
 	margin-right: 5%;
-	border-radius: 10%;
-	margin-bottom: 2%;
+	clear: none;
+}
+.schools.dublin,
+.schools.berkeley {
+	display: inline-block;
+	width: 50%;
+	height: 100%;
 }
 .skill_list {
 	background-color: white;
@@ -243,13 +249,15 @@ footer a {
 	border: 1px;
 	border-style: solid;
 	border-color: #000085;
-	width: 20%;
-	margin: 3%;
+	width: 27%;
+	margin: 2%;
 	margin-top: 0;
 	display: inline-block;
 }
 .skills {
-	margin-top: 4%;
+	margin-top: 5%;
+	width: 85%;
+	margin: auto;
 }
 .skill_list li {
 	padding: 2%;
@@ -295,7 +303,6 @@ footer a {
 	margin-bottom: 5%;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	/*	border: 1px solid #000085;*/
 }
 .backgroundbox.one {
 	background-image: url(/img/emertxt.png);
@@ -346,10 +353,6 @@ footer a {
 .transparent.text p {
 	padding-top: 5%;
 }
-.projecttitle {
-	font-weight: 800;
-	font-size: 150%;
-}
 
-/*@media (screen and max-width: 800px) { 
+/*@media (screen and max-width: 767px) { 
 }    */
