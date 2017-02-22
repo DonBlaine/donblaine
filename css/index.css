@@ -142,8 +142,10 @@ hr {
 }
 nav {
 	background-color: dimgrey;
-	width: 99%;
+	width: 95%;
 	margin: auto;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 nav ul {
 	list-style-type: none;
