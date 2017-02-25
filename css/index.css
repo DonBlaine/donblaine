@@ -43,24 +43,24 @@
 	animation-delay: 0.5s;
 }
 .fade.two {
-	-webkit-animation-delay: 2s;
-	-moz-animation-delay: 2s;
-	animation-delay: 2s;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	animation-delay: 1s;
 }
 .fade.three {
-	-webkit-animation-delay: 3.5s;
-	-moz-animation-delay: 3.5s;
-	animation-delay: 3.5s;
+	-webkit-animation-delay: 1.7s;
+	-moz-animation-delay: 1.7s;
+	animation-delay: 1.7s;
 }
 .fade.four {
-	-webkit-animation-delay: 5s;
-	-moz-animation-delay: 5s;
-	animation-delay: 5s;
+	-webkit-animation-delay: 2.3s;
+	-moz-animation-delay: 2.3s;
+	animation-delay: 2.3s;
 }
 .fade.five {
-	-webkit-animation-delay: 6s;
-	-moz-animation-delay: 6s;
-	animation-delay: 6s;
+	-webkit-animation-delay: 2.5s;
+	-moz-animation-delay: 2.5s;
+	animation-delay: 2.5s;
 }
 @-webkit-keyframes slideUp {
 	from {
@@ -93,12 +93,12 @@
 	-webkit-animation-fill-mode: forwards;
 	-moz-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
-	-webkit-animation-duration: 4.5s;
-	-moz-animation-duration: 4.5s;
-	animation-duration: 4.5s;
-	-webkit-animation-delay: 3s;
-	-moz-animation-delay: 3s;
-	animation-delay: 3s;
+	-webkit-animation-duration: 3s;
+	-moz-animation-duration: 3s;
+	animation-duration: 3s;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	animation-delay: 1s;
 	height: 2000px;
 }
 body {
@@ -152,7 +152,7 @@ hr {
 }
 nav {
 	background-color: dimgrey;
-	width: 100%;
+	width: 99%;
 	margin: auto;
 	top: 0;
 	position: fixed;
@@ -304,6 +304,7 @@ footer a {
 	margin-bottom: 5%;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
+	border: 1px solid #000085;
 }
 .backgroundbox.one {
 	background-image: url(/img/emertxt.png);
@@ -328,32 +329,36 @@ footer a {
 	opacity: 0.0;
 	filter: alpha(opacity=0);
 }
-.transparent p {
-	color: white;
-	text-align: left;
-	font-weight: 800;
-	font-size: 150%;
-	font-style: italic;
-	border-top: 2px solid white;
-	width: 90%;
-	margin: auto;
-	text-align: center;
-}
 .transparent:hover {
 	display: block;
 	-moz-opacity: 0.85;
 	opacity: 0.85;
 	filter: alpha(opacity=85);
 }
+.transparent.text p,
+.transparent.text h5 {
+	color: white;
+	font-weight: 800;
+	font-size: 150%;
+	font-style: italic;
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
 .transparent.text {
-	padding-top: 10%;
+	padding-top: 5%;
 	text-align: center;
 	width: 100%;
 	height: 80%;
 }
 .transparent.text p {
 	padding-top: 5%;
+	border-top: 2px solid white;
+}
+.transparent.text h5 {
+	padding-bottom: 1%;
 }
 
 /*@media (screen and max-width: 767px) { 
+.navbar  { left: 0px; width: 100%; }
 }    */
