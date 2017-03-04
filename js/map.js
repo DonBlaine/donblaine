@@ -14,7 +14,7 @@ var locations = [
 ['Barcelona, Spain', 41.3850639, 2.1734034999999494],
 ['Krakow, Poland', 50.06465009999999, 19.94497990000002],
 ['Auschwitz, Poland', 50.03062850000001, 19.198602800000003],
-['Budapest, Hungary',47.497912, 19.04023499999994],
+['Budapest, Hungary', 47.497912, 19.04023499999994],
 ['Prague, Czech Rep', 50.0755381, 14.43780049999998],
 ['Riga, Latvia', 56.9496487, 24.10518639999998],
 ['Rome, Italy', 41.9027835, 12.496365500000024],
@@ -26,17 +26,17 @@ var locations = [
 ['San Francisco, California', 37.7749295, -122.41941550000001],
 ['San Diego, California', 32.715738, -117.16108380000003],
 ['Los Angeles, California', 34.0522342, -118.2436849],
-['Portland, Oregon',45.5230622, -122.67648159999999],
+['Portland, Oregon', 45.5230622, -122.67648159999999],
 ['Seattle, Washington', 47.6062095, -122.3320708],
 ['Washington DC, DC', 38.9071923, -77.03687070000001],
 ['Miami, Florida', 25.7616798, -80.19179020000001],
-['Puerto Vallarta, Mexico', 20.653407,-105.2253316],
+['Puerto Vallarta, Mexico', 20.653407, -105.2253316],
 ['Las Vegas, Nevada', 36.1699412, -115.13982959999998],
 ['Reno, Nevada', 39.5296329, -119.8138027],
 ['Tahoe, Nevada', 39.0968493, -120.0323507],
 ['Bucharest, Romania', 44.4268, 26.1025],
 ['Vienna, Austria', 48.2082, 16.3738],
-['Glasgow, Scotland',55.8642, 4.2518]
+['Glasgow, Scotland', 55.8642, -4.2518]
 ];
 
 function initialize() {
