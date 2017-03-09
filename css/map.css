@@ -6,6 +6,13 @@ section {
 	height: 100%;
 	width: 100%;
 }
+body {
+	background-color: gainsboro;
+	font-family: "Open Sans", sans-serif, serif;
+	font-style: normal;
+	font-variant: normal;
+	font-size: 1em;
+}
 .navbackground {
 	background-color: white;
 	width: 99%;
@@ -45,7 +52,7 @@ header {
 	padding: 3%;
 	width: 80%;
 	margin: auto;
-	margin-top: 3%;
+	padding-top: 8%;
 }
 section {
 	background-color: gainsboro;
@@ -61,8 +68,31 @@ section {
 	margin: auto;
 	border: 1px solid black;
 }
+#mapholder {
+	background-color: white;
+	height: 100%;
+	width: 99%;
+	margin: auto;
+	bottom: 0;
+	padding-bottom: 10%;
+}
+header h1 {
+	text-align: center;
+	padding: 1%;
+	font-weight: 500;
+	font-size: 100%;
+	color: #000085;
+}
+header {
+	background-color: white;
+	width: 93%;
+}
 @media screen and (max-width: 767px) {
+	header {
+		padding-top: 10%;
+		padding-bottom: 5%;
+	}
 	.navbackground {
-		padding-bottom: 10%;
+		padding-bottom: 8%;
 	}
 }
